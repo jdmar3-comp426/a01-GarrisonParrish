@@ -5,5 +5,28 @@
 /* Cormorant Garamond */
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
-/* Cardo for headers, Inter and Cormorant Garamond for paragraphs */ 
+/* Cardo for headers, Inter and Cormorant Garamond for paragraphs */
+body {
+    font-family: 'Inter', Arial, sans-serif;
+}
 
+
+h1 {
+    font-family: 'Cardo', Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+h2 {
+    font-family: 'Inter', Arial, sans-serif;
+    font-size: 20px;
+}
+
+h3 {
+    font-family: 'Inter', Arial, sans-serif;
+}
+
+.navbar-pusher {
+    overflow: hidden;
+    background-image: radial-gradient(rgb(5, 128, 116), rgb(54, 196, 227))
+}
