@@ -26,7 +26,13 @@ h3 {
     font-family: 'Inter', Arial, sans-serif;
 }
 
-.navbar-pusher {
+.navbar {
     overflow: hidden;
     background-image: radial-gradient(rgb(5, 128, 116), rgb(54, 196, 227))
+}
+
+.navbar a {
+    float: right;
+    display: block;
+    color: #fff;
 }
