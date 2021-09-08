@@ -8,17 +8,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,300;0,400;0,600;1,100;1,300;1,400;1,600&display=swap');
 
 /* Cardo for headers, Inter and Cormorant Garamond for paragraphs */
+
+#logo {
+    float: left;
+}
+
+img {
+    max-width: 3em;
+    height: auto;
+    object-fit: contain;
+}
 body {
     font-family: 'Inter', Arial, sans-serif;
 }
 
-
 h1 {
+    padding-left: 1em;
+    padding-right: 1em;
     font-family: 'Cardo', Arial, sans-serif;
     font-size: 40px;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 0.2em;
+    text-decoration: underline 3px #000;
 }
 
 h2 {
@@ -82,4 +94,9 @@ p {
 /* the black box gets stretched out to fill the space behind the link, giving the appearance of an animated underline */
 .navbar a:hover::before {
     transform: scaleX(1);
+}
+
+/* push up the content so there isn't an awkward blank space */
+.content {
+    padding: 10px;
 }
