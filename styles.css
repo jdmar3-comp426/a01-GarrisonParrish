@@ -1,13 +1,12 @@
-/* Cardo */
+/* Cardo 
 @import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap');
-/* Inter */
+Inter
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&display=swap');
-/* Cormorant Garamond */
+Cormorant Garamond
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
-/* Josefin Sans */
+Josefin Sans
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,300;0,400;0,600;1,100;1,300;1,400;1,600&display=swap');
-
-/* Cardo for headers, Inter and Cormorant Garamond for paragraphs */
+Cardo for headers, Inter and Cormorant Garamond for paragraphs */
 
 #logo {
     float: left;
