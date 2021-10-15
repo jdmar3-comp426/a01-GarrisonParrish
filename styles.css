@@ -16,6 +16,7 @@ img {
     max-width: 3em;
     height: auto;
     object-fit: contain;
+    border: solid 2px black;
 }
 body {
     font-family: 'Inter', Arial, sans-serif;
