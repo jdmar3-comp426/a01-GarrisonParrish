@@ -1,0 +1,102 @@
+/* Cardo 
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap');
+Inter
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&display=swap');
+Cormorant Garamond
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+Josefin Sans
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,300;0,400;0,600;1,100;1,300;1,400;1,600&display=swap');
+Cardo for headers, Inter and Cormorant Garamond for paragraphs */
+
+#logo {
+    float: left;
+}
+
+img {
+    max-width: 3em;
+    height: auto;
+    object-fit: contain;
+    border: solid 2px black;
+}
+body {
+    font-family: 'Inter', Arial, sans-serif;
+}
+
+h1 {
+    padding-left: 1em;
+    padding-right: 1em;
+    font-family: 'Cardo', Arial, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    text-decoration: underline 3px #000;
+}
+
+h2 {
+    font-family: 'Inter', Arial, sans-serif;
+    font-size: 20px;
+}
+
+h3 {
+    font-family: 'Inter', Arial, sans-serif;
+}
+
+p {
+    font-size: 12px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-image: linear-gradient(rgb(5, 128, 116), rgb(54, 196, 227))
+}
+
+/* Pretty animated links */
+.navbar a {
+    position: relative;
+    float: right;
+    display: block;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #000;
+    font-family: 'Josefin Sans', Arial, sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    /* text-decoration: underline transparent; */
+    /* transition: text-decoration-color 300ms; */
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* this changes the color of the underline from transparaent to black */
+.navbar a:hover {
+    /* text-decoration-color: #fff; */
+    color: #000;
+}
+
+/* this is basically a one-dimensional black box that goes behind the link */
+.navbar a::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    transform: scaleX(0);
+    transition: transform 300ms ease;
+}
+
+/* the black box gets stretched out to fill the space behind the link, giving the appearance of an animated underline */
+.navbar a:hover::before {
+    transform: scaleX(1);
+}
+
+/* push up the content so there isn't an awkward blank space */
+.content {
+    padding: 10px;
+}
